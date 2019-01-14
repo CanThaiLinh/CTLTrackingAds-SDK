@@ -1,0 +1,29 @@
+# CTLTrackingAds-SDK
+
+[![CI Status](https://img.shields.io/travis/songoku20/CTLTrackingAds-SDK.svg?style=flat)](https://travis-ci.org/songoku20/CTLTrackingAds-SDK)
+[![Version](https://img.shields.io/cocoapods/v/CTLTrackingAds-SDK.svg?style=flat)](https://cocoapods.org/pods/CTLTrackingAds-SDK)
+[![License](https://img.shields.io/cocoapods/l/CTLTrackingAds-SDK.svg?style=flat)](https://cocoapods.org/pods/CTLTrackingAds-SDK)
+[![Platform](https://img.shields.io/cocoapods/p/CTLTrackingAds-SDK.svg?style=flat)](https://cocoapods.org/pods/CTLTrackingAds-SDK)
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+CTLTrackingAds-SDK is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'CTLTrackingAds-SDK'
+```
+
+## Author
+
+songoku20, sonleminh@tcom.net.vn
+
+## License
+
+CTLTrackingAds-SDK is available under the MIT license. See the LICENSE file for more info.
