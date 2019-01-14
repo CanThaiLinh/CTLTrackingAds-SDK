@@ -22,7 +22,7 @@ pod 'CTLTrackingAds-SDK'
 
 ## Author
 
-songoku20, sonleminh@tcom.net.vn
+canthailinh, linhct.dev@gmail.com
 
 ## License
 
