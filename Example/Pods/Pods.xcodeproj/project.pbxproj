@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		165711789FFA070B621C26DAFCC3B542 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		19398E04311B12C9A4E9975218C09D22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		28A58AE5FF10B61389A39F97FD854E85 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C103351B0BE659ED1F4AAF722C624347 /* ReplaceMe.m */; };
+		6CB143B39E1CEAE6C1E7C7FC28A5C25D /* Pods-CTLTrackingAds-SDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9E0B5CAF6FC39809959E1BCC92DCA9B /* Pods-CTLTrackingAds-SDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E7E3A59B03D92FB40A82091E87862E8 /* Pods-CTLTrackingAds-SDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D021F7B7F3E03C6F9CE83AA0B56569E5 /* Pods-CTLTrackingAds-SDK_Example-dummy.m */; };
+		737AB68010FCE6832A74B6167E42B9CB /* CTLTrackingAds-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DD7557AC575CF933D3183D72D8E765 /* CTLTrackingAds-SDK-dummy.m */; };
+		7A27CC73DEAF292A0AA8081466D61925 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		D3CC4485434CE07DB56B17138972600C /* Pods-CTLTrackingAds-SDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1F067BF7D4A6FFB3C3B264F4817C706 /* Pods-CTLTrackingAds-SDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC64A71A490DCA75C5029D04452CA2E1 /* Pods-CTLTrackingAds-SDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0708B0725F0CA228BE9AD2E62369404 /* Pods-CTLTrackingAds-SDK_Tests-dummy.m */; };
+		EEB3D00B64540E78318E7342AC109AFE /* CTLTrackingAds-SDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B21798C356B1D99B2B2BF87857E9C1DB /* CTLTrackingAds-SDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		202BA7CDDCA5FE444D16EC0C81F5876B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B96821CBDBF3E5A39E81AF5F4F3FC53;
+			remoteInfo = "Pods-CTLTrackingAds-SDK_Example";
+		};
+		8AD48EDE4C6C3FB40BD3DCDC96F625E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E44B30F228D4505F42672B1076B64D13;
+			remoteInfo = "CTLTrackingAds-SDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C83AE7879AB8B519FA6A0F4ED88C618 /* Pods-CTLTrackingAds-SDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CTLTrackingAds-SDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		12FB31077C8BCBBE65D74DF2B34BA157 /* CTLTrackingAds-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CTLTrackingAds-SDK.xcconfig"; sourceTree = "<group>"; };
+		13DD7557AC575CF933D3183D72D8E765 /* CTLTrackingAds-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTLTrackingAds-SDK-dummy.m"; sourceTree = "<group>"; };
+		1E9186450390BB45BE3C18BB528B589A /* Pods-CTLTrackingAds-SDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CTLTrackingAds-SDK_Tests.modulemap"; sourceTree = "<group>"; };
+		3664EA41EDA21D9BB161957EAD7ABC15 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3B9821EC2730AEBF1C01C6896B7A6E35 /* Pods-CTLTrackingAds-SDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CTLTrackingAds-SDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4B086DBCB2ADC40313DEC1741FF3873F /* Pods-CTLTrackingAds-SDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CTLTrackingAds-SDK_Example.modulemap"; sourceTree = "<group>"; };
+		5252C543D5E7C34363CDA033FFC8B07B /* Pods-CTLTrackingAds-SDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CTLTrackingAds-SDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D5594639F8FDABE28C2954A5A86C368 /* Pods_CTLTrackingAds_SDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CTLTrackingAds_SDK_Example.framework; path = "Pods-CTLTrackingAds-SDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EA576493FDA0CDB701FD966A585ED04 /* Pods-CTLTrackingAds-SDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CTLTrackingAds-SDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		611C4D44E43794CBD3E4986B580068BE /* Pods-CTLTrackingAds-SDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CTLTrackingAds-SDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		67CAED1BAE0439E6256F3ADA350B7E4D /* Pods-CTLTrackingAds-SDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CTLTrackingAds-SDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		697273CE746F32DF9C224F3F53D45BD1 /* CTLTrackingAds-SDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "CTLTrackingAds-SDK.modulemap"; sourceTree = "<group>"; };
+		6C2C99DCB9D77BB3A81C033D6141E7A0 /* Pods-CTLTrackingAds-SDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CTLTrackingAds-SDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		84AC6B28697EFF324E3B18FD1CA987F6 /* Pods-CTLTrackingAds-SDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CTLTrackingAds-SDK_Example-Info.plist"; sourceTree = "<group>"; };
+		9A09CD42842D8C831779E8CE231B658E /* Pods_CTLTrackingAds_SDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CTLTrackingAds_SDK_Tests.framework; path = "Pods-CTLTrackingAds-SDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3EB9735F718DFB8B8BBDCB852026B3 /* CTLTrackingAds-SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTLTrackingAds-SDK-prefix.pch"; sourceTree = "<group>"; };
+		A1F067BF7D4A6FFB3C3B264F4817C706 /* Pods-CTLTrackingAds-SDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CTLTrackingAds-SDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		AA8FFCD5F36185B8F3DEF291BE691839 /* CTLTrackingAds-SDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CTLTrackingAds-SDK-Info.plist"; sourceTree = "<group>"; };
+		B0708B0725F0CA228BE9AD2E62369404 /* Pods-CTLTrackingAds-SDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CTLTrackingAds-SDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		B21798C356B1D99B2B2BF87857E9C1DB /* CTLTrackingAds-SDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTLTrackingAds-SDK-umbrella.h"; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B6A82BB57D7E8C8D5BE2FDB2005F1647 /* Pods-CTLTrackingAds-SDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CTLTrackingAds-SDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C103351B0BE659ED1F4AAF722C624347 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = "CTLTrackingAds-SDK/Classes/ReplaceMe.m"; sourceTree = "<group>"; };
+		C31910778158398DE37A8BF12FC63B32 /* Pods-CTLTrackingAds-SDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CTLTrackingAds-SDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C9E0B5CAF6FC39809959E1BCC92DCA9B /* Pods-CTLTrackingAds-SDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CTLTrackingAds-SDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CDF487305AFADAB01F3C95F0D8F316DD /* Pods-CTLTrackingAds-SDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CTLTrackingAds-SDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D021F7B7F3E03C6F9CE83AA0B56569E5 /* Pods-CTLTrackingAds-SDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CTLTrackingAds-SDK_Example-dummy.m"; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E8AFE4317133EF630220A56DF413F909 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		ECBEFEF9B6C2927456EB402840A919FE /* CTLTrackingAds_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTLTrackingAds_SDK.framework; path = "CTLTrackingAds-SDK.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7B8719620082308B82B112CC36B4D4C /* CTLTrackingAds-SDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "CTLTrackingAds-SDK.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C12667B128A770A4F240B98CE653089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19398E04311B12C9A4E9975218C09D22 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA78598CDF9CD1E3A9CA5067B712CDDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A27CC73DEAF292A0AA8081466D61925 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2473713DCBAE62DEC53733CEE6A8525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165711789FFA070B621C26DAFCC3B542 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C906A2FC5182405B65782086A84586C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECBEFEF9B6C2927456EB402840A919FE /* CTLTrackingAds_SDK.framework */,
+				5D5594639F8FDABE28C2954A5A86C368 /* Pods_CTLTrackingAds_SDK_Example.framework */,
+				9A09CD42842D8C831779E8CE231B658E /* Pods_CTLTrackingAds_SDK_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20D8F78508A87156EEFA7801A9B45E94 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				697273CE746F32DF9C224F3F53D45BD1 /* CTLTrackingAds-SDK.modulemap */,
+				12FB31077C8BCBBE65D74DF2B34BA157 /* CTLTrackingAds-SDK.xcconfig */,
+				13DD7557AC575CF933D3183D72D8E765 /* CTLTrackingAds-SDK-dummy.m */,
+				AA8FFCD5F36185B8F3DEF291BE691839 /* CTLTrackingAds-SDK-Info.plist */,
+				9A3EB9735F718DFB8B8BBDCB852026B3 /* CTLTrackingAds-SDK-prefix.pch */,
+				B21798C356B1D99B2B2BF87857E9C1DB /* CTLTrackingAds-SDK-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CTLTrackingAds-SDK";
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		61C753251F1DEE1C1757A84E7A974E60 /* CTLTrackingAds-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				C103351B0BE659ED1F4AAF722C624347 /* ReplaceMe.m */,
+				84B0E5F7D6518360FD65AE7B27D4334E /* Pod */,
+				20D8F78508A87156EEFA7801A9B45E94 /* Support Files */,
+			);
+			name = "CTLTrackingAds-SDK";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		72A5586BCE65BE98546C3166DA996652 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61C753251F1DEE1C1757A84E7A974E60 /* CTLTrackingAds-SDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				72A5586BCE65BE98546C3166DA996652 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1C906A2FC5182405B65782086A84586C /* Products */,
+				C5AC9FDA6F613C989727225479B72D62 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84B0E5F7D6518360FD65AE7B27D4334E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F7B8719620082308B82B112CC36B4D4C /* CTLTrackingAds-SDK.podspec */,
+				E8AFE4317133EF630220A56DF413F909 /* LICENSE */,
+				3664EA41EDA21D9BB161957EAD7ABC15 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5AC9FDA6F613C989727225479B72D62 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF86180871B92E5E8905434D5AD78C91 /* Pods-CTLTrackingAds-SDK_Example */,
+				EAC6F8DBA28A123D224B82E3D46C977F /* Pods-CTLTrackingAds-SDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF86180871B92E5E8905434D5AD78C91 /* Pods-CTLTrackingAds-SDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4B086DBCB2ADC40313DEC1741FF3873F /* Pods-CTLTrackingAds-SDK_Example.modulemap */,
+				67CAED1BAE0439E6256F3ADA350B7E4D /* Pods-CTLTrackingAds-SDK_Example-acknowledgements.markdown */,
+				CDF487305AFADAB01F3C95F0D8F316DD /* Pods-CTLTrackingAds-SDK_Example-acknowledgements.plist */,
+				D021F7B7F3E03C6F9CE83AA0B56569E5 /* Pods-CTLTrackingAds-SDK_Example-dummy.m */,
+				3B9821EC2730AEBF1C01C6896B7A6E35 /* Pods-CTLTrackingAds-SDK_Example-frameworks.sh */,
+				84AC6B28697EFF324E3B18FD1CA987F6 /* Pods-CTLTrackingAds-SDK_Example-Info.plist */,
+				A1F067BF7D4A6FFB3C3B264F4817C706 /* Pods-CTLTrackingAds-SDK_Example-umbrella.h */,
+				6C2C99DCB9D77BB3A81C033D6141E7A0 /* Pods-CTLTrackingAds-SDK_Example.debug.xcconfig */,
+				5EA576493FDA0CDB701FD966A585ED04 /* Pods-CTLTrackingAds-SDK_Example.release.xcconfig */,
+			);
+			name = "Pods-CTLTrackingAds-SDK_Example";
+			path = "Target Support Files/Pods-CTLTrackingAds-SDK_Example";
+			sourceTree = "<group>";
+		};
+		EAC6F8DBA28A123D224B82E3D46C977F /* Pods-CTLTrackingAds-SDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1E9186450390BB45BE3C18BB528B589A /* Pods-CTLTrackingAds-SDK_Tests.modulemap */,
+				B6A82BB57D7E8C8D5BE2FDB2005F1647 /* Pods-CTLTrackingAds-SDK_Tests-acknowledgements.markdown */,
+				C31910778158398DE37A8BF12FC63B32 /* Pods-CTLTrackingAds-SDK_Tests-acknowledgements.plist */,
+				B0708B0725F0CA228BE9AD2E62369404 /* Pods-CTLTrackingAds-SDK_Tests-dummy.m */,
+				0C83AE7879AB8B519FA6A0F4ED88C618 /* Pods-CTLTrackingAds-SDK_Tests-Info.plist */,
+				C9E0B5CAF6FC39809959E1BCC92DCA9B /* Pods-CTLTrackingAds-SDK_Tests-umbrella.h */,
+				5252C543D5E7C34363CDA033FFC8B07B /* Pods-CTLTrackingAds-SDK_Tests.debug.xcconfig */,
+				611C4D44E43794CBD3E4986B580068BE /* Pods-CTLTrackingAds-SDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-CTLTrackingAds-SDK_Tests";
+			path = "Target Support Files/Pods-CTLTrackingAds-SDK_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		98903131842769D012560F6BF8899814 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB3D00B64540E78318E7342AC109AFE /* CTLTrackingAds-SDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C73239D77523AEAB58FB6307E184A5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB143B39E1CEAE6C1E7C7FC28A5C25D /* Pods-CTLTrackingAds-SDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F035E61E7356B41D8BAFDBACECE1397A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CC4485434CE07DB56B17138972600C /* Pods-CTLTrackingAds-SDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4B96821CBDBF3E5A39E81AF5F4F3FC53 /* Pods-CTLTrackingAds-SDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EBFD43D0135FAA97141649BB82B421A /* Build configuration list for PBXNativeTarget "Pods-CTLTrackingAds-SDK_Example" */;
+			buildPhases = (
+				F035E61E7356B41D8BAFDBACECE1397A /* Headers */,
+				A2B4F6581DCEEC4593E42069643BC763 /* Sources */,
+				9C12667B128A770A4F240B98CE653089 /* Frameworks */,
+				DB535B5D11B80EDA5D942C16FE72450D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D663AE5A019371FB5AECE0C69B33F2A3 /* PBXTargetDependency */,
+			);
+			name = "Pods-CTLTrackingAds-SDK_Example";
+			productName = "Pods-CTLTrackingAds-SDK_Example";
+			productReference = 5D5594639F8FDABE28C2954A5A86C368 /* Pods_CTLTrackingAds_SDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		99BAD194193FE0B3EA1152FD8F706A0B /* Pods-CTLTrackingAds-SDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF94916453108660AFE86395F22B80B /* Build configuration list for PBXNativeTarget "Pods-CTLTrackingAds-SDK_Tests" */;
+			buildPhases = (
+				9C73239D77523AEAB58FB6307E184A5A /* Headers */,
+				081320FCBCAC8A76A97CA92E4BAD28C7 /* Sources */,
+				AA78598CDF9CD1E3A9CA5067B712CDDA /* Frameworks */,
+				310137B7587A9FA870CC2B6959034F13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35946D35141FD1756AB26D6412A4CE5D /* PBXTargetDependency */,
+			);
+			name = "Pods-CTLTrackingAds-SDK_Tests";
+			productName = "Pods-CTLTrackingAds-SDK_Tests";
+			productReference = 9A09CD42842D8C831779E8CE231B658E /* Pods_CTLTrackingAds_SDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E44B30F228D4505F42672B1076B64D13 /* CTLTrackingAds-SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E545EFA9C6942157C9DD9E44415B8689 /* Build configuration list for PBXNativeTarget "CTLTrackingAds-SDK" */;
+			buildPhases = (
+				98903131842769D012560F6BF8899814 /* Headers */,
+				73C3083436C573CF1D1B245BC9129BB5 /* Sources */,
+				C2473713DCBAE62DEC53733CEE6A8525 /* Frameworks */,
+				D36C1AAF14490F23F00307BB6EE3F649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CTLTrackingAds-SDK";
+			productName = "CTLTrackingAds-SDK";
+			productReference = ECBEFEF9B6C2927456EB402840A919FE /* CTLTrackingAds_SDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1C906A2FC5182405B65782086A84586C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E44B30F228D4505F42672B1076B64D13 /* CTLTrackingAds-SDK */,
+				4B96821CBDBF3E5A39E81AF5F4F3FC53 /* Pods-CTLTrackingAds-SDK_Example */,
+				99BAD194193FE0B3EA1152FD8F706A0B /* Pods-CTLTrackingAds-SDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		310137B7587A9FA870CC2B6959034F13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36C1AAF14490F23F00307BB6EE3F649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB535B5D11B80EDA5D942C16FE72450D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		081320FCBCAC8A76A97CA92E4BAD28C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC64A71A490DCA75C5029D04452CA2E1 /* Pods-CTLTrackingAds-SDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73C3083436C573CF1D1B245BC9129BB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				737AB68010FCE6832A74B6167E42B9CB /* CTLTrackingAds-SDK-dummy.m in Sources */,
+				28A58AE5FF10B61389A39F97FD854E85 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B4F6581DCEEC4593E42069643BC763 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E7E3A59B03D92FB40A82091E87862E8 /* Pods-CTLTrackingAds-SDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35946D35141FD1756AB26D6412A4CE5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CTLTrackingAds-SDK_Example";
+			target = 4B96821CBDBF3E5A39E81AF5F4F3FC53 /* Pods-CTLTrackingAds-SDK_Example */;
+			targetProxy = 202BA7CDDCA5FE444D16EC0C81F5876B /* PBXContainerItemProxy */;
+		};
+		D663AE5A019371FB5AECE0C69B33F2A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CTLTrackingAds-SDK";
+			target = E44B30F228D4505F42672B1076B64D13 /* CTLTrackingAds-SDK */;
+			targetProxy = 8AD48EDE4C6C3FB40BD3DCDC96F625E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04D24FBF7A3BEAAE00DC22E7FC8211EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12FB31077C8BCBBE65D74DF2B34BA157 /* CTLTrackingAds-SDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTLTrackingAds-SDK/CTLTrackingAds-SDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTLTrackingAds-SDK/CTLTrackingAds-SDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTLTrackingAds-SDK/CTLTrackingAds-SDK.modulemap";
+				PRODUCT_MODULE_NAME = CTLTrackingAds_SDK;
+				PRODUCT_NAME = CTLTrackingAds_SDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		60533452DD73CA1F56259D5C1F95A39F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C2C99DCB9D77BB3A81C033D6141E7A0 /* Pods-CTLTrackingAds-SDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CTLTrackingAds-SDK_Example/Pods-CTLTrackingAds-SDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CTLTrackingAds-SDK_Example/Pods-CTLTrackingAds-SDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		80A1585C1E0C714BD9CB5E12453070FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EA576493FDA0CDB701FD966A585ED04 /* Pods-CTLTrackingAds-SDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CTLTrackingAds-SDK_Example/Pods-CTLTrackingAds-SDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CTLTrackingAds-SDK_Example/Pods-CTLTrackingAds-SDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		990B9F763D6ABC9075B033F08099F20D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12FB31077C8BCBBE65D74DF2B34BA157 /* CTLTrackingAds-SDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTLTrackingAds-SDK/CTLTrackingAds-SDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTLTrackingAds-SDK/CTLTrackingAds-SDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTLTrackingAds-SDK/CTLTrackingAds-SDK.modulemap";
+				PRODUCT_MODULE_NAME = CTLTrackingAds_SDK;
+				PRODUCT_NAME = CTLTrackingAds_SDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B32FABA55C29958EED8A35E67315866F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 611C4D44E43794CBD3E4986B580068BE /* Pods-CTLTrackingAds-SDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CTLTrackingAds-SDK_Tests/Pods-CTLTrackingAds-SDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CTLTrackingAds-SDK_Tests/Pods-CTLTrackingAds-SDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE01AF5D395AE305A54D518A9B774D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E6667BE89B59FA18AFF15A76BC9C8AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5252C543D5E7C34363CDA033FFC8B07B /* Pods-CTLTrackingAds-SDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CTLTrackingAds-SDK_Tests/Pods-CTLTrackingAds-SDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CTLTrackingAds-SDK_Tests/Pods-CTLTrackingAds-SDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */,
+				BE01AF5D395AE305A54D518A9B774D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EBFD43D0135FAA97141649BB82B421A /* Build configuration list for PBXNativeTarget "Pods-CTLTrackingAds-SDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60533452DD73CA1F56259D5C1F95A39F /* Debug */,
+				80A1585C1E0C714BD9CB5E12453070FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF94916453108660AFE86395F22B80B /* Build configuration list for PBXNativeTarget "Pods-CTLTrackingAds-SDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6667BE89B59FA18AFF15A76BC9C8AA9 /* Debug */,
+				B32FABA55C29958EED8A35E67315866F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E545EFA9C6942157C9DD9E44415B8689 /* Build configuration list for PBXNativeTarget "CTLTrackingAds-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				990B9F763D6ABC9075B033F08099F20D /* Debug */,
+				04D24FBF7A3BEAAE00DC22E7FC8211EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

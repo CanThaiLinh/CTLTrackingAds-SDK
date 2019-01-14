@@ -1,0 +1,22 @@
+{
+  "name": "CTLTrackingAds-SDK",
+  "version": "0.1.0",
+  "summary": "A short description of CTLTrackingAds-SDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/songoku20/CTLTrackingAds-SDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "songoku20": "sonleminh@tcom.net.vn"
+  },
+  "source": {
+    "git": "https://github.com/songoku20/CTLTrackingAds-SDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CTLTrackingAds-SDK/Classes/**/*"
+}

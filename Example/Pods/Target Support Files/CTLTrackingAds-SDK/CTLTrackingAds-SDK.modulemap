@@ -1,0 +1,6 @@
+framework module CTLTrackingAds_SDK {
+  umbrella header "CTLTrackingAds-SDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
