@@ -1,22 +1,46 @@
 {
   "name": "CTLTrackingAds-SDK",
-  "version": "0.1.0",
+  "version": "0.1.5",
   "summary": "A short description of CTLTrackingAds-SDK.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/songoku20/CTLTrackingAds-SDK",
+  "description": "Everything about this project under our ownership, giong cai sumary no chui",
+  "homepage": "https://github.com/CanThaiLinh/CTLTrackingAds-SDK",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "songoku20": "sonleminh@tcom.net.vn"
+    "linhct.dev@gmail.com": "linhct.dev@gmail.com"
   },
   "source": {
-    "git": "https://github.com/songoku20/CTLTrackingAds-SDK.git",
-    "tag": "0.1.0"
+    "http": "https://github.com/CanThaiLinh/CTLTrackingAds-SDK/releases/download/0.1.5/CTLTrackingAds-SDK-0.1.5.zip"
+  },
+  "swift_version": "4.2",
+  "source_files": "CTLTrackingCore.framework/Versions/A/Headers/CTLCoreManager.h",
+  "frameworks": [
+    "SystemConfiguration",
+    "QuartzCore",
+    "CoreData",
+    "CoreTelephony",
+    "AdSupport"
+  ],
+  "libraries": [
+    "z",
+    "System",
+    "xml2",
+    "xml2.2",
+    "c++"
+  ],
+  "requires_arc": true,
+  "dependencies": {
+    "CTLProtocolBuffers": [
+      "~> 0.1.1"
+    ]
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "CTLTrackingAds-SDK/Classes/**/*"
+  "preserve_paths": "CTLTrackingCore.framework",
+  "public_header_files": "CTLTrackingCore.framework/Versions/A/Headers/CTLCoreManager.h",
+  "resources": "CTLTrackingCoreResource.bundle",
+  "vendored_frameworks": "CTLTrackingCore.framework"
 }
